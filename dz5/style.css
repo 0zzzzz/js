@@ -1,0 +1,18 @@
+.chess{
+    background-color: #ffffff;
+}
+
+.basket{
+    background-color: #ffffff;
+}
+
+.all_products{
+    background-color: #ffffff;
+}
+
+.chess_cell{
+    width : 40px;
+    height : 40px;
+    text-align : center;
+    float : left;
+}
