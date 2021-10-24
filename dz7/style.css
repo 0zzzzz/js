@@ -1,0 +1,61 @@
+#snake-field{
+    display: inline-block;
+}
+#snake-renew,#snake-start{
+    width: 150px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: "PT Sans", "Arial", serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(158, 174, 135);;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+}
+.game-table{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    /* border-collapse: collapse; */
+    background-color: rgb(158, 174, 135);
+}
+td.game-table-cell{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    background-color: rgb(158, 174, 135);
+}
+td.snake-unit{
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 0px 4px rgb(158, 174, 135);
+}
+td.food-unit{
+    background-color: rgb(96, 101, 81);
+    box-shadow: inset 0px 0px 0px 4px rgb(158, 174, 135);
+}
+
+td.barrier-unit{
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 0px 1px rgb(158, 174, 135);
+}
+
+.buttons{
+    display: inline-block;
+}
+.wrap{
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.score{
+    text-align: center;
+    font-weight: bold;
+    font-family: "PT Sans", "Arial", serif;
+}
+
+.hidden_el{
+    visibility: hidden
+}
